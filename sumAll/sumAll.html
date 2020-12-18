@@ -1,7 +1,10 @@
+<script>
+
 const sumAll = function(valueA, valueB) {
     var grandTotal = 0;
 
     if (valueA < 0 || valueB < 0) {return 'ERROR'}
+
     if (typeof(valueA) != 'number'|| typeof(valueB) != 'number') {return'ERROR'}
 
     if (valueA > valueB) {
@@ -22,4 +25,7 @@ const sumAll = function(valueA, valueB) {
     }
     return grandTotal;
 }
-module.exports = sumAll
+
+console.log(sumAll(5, ));
+
+</script>
